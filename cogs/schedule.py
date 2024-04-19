@@ -62,7 +62,7 @@ class ScheduleShift(commands.Cog):
         embed = discord.Embed(
             title=f"**New shift: {title}**",
             description=description,
-            colour=discord.Colour.green()
+            colour=discord.Colour.orange()
         )
         embed.set_thumbnail(url=interaction.guild.icon)
         embed.add_field(
